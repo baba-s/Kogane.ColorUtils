@@ -1,11 +1,11 @@
-# Uni Color Utils
+﻿# Uni Color Utils
 
 色の変換を行うクラス
 
 ## 使用例
 
 ```cs
-using UniColorUtils;
+using Kogane;
 using UnityEngine;
 
 public class Example : MonoBehaviour

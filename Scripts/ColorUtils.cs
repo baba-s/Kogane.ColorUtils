@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UniColorUtils
+namespace Kogane
 {
 	/// <summary>
 	/// 色の変換を行うクラス
