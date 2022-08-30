@@ -1,4 +1,4 @@
-﻿# Uni Color Utils
+﻿# Kogane Color Utils
 
 Color 型と16進数、HTML カラー形式の文字列の変換ができる機能
 
