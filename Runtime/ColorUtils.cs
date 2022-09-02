@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿// 以下の警告を無効化
+// warning CS0675: Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first
+
+#pragma warning disable 0675
+
+using UnityEngine;
 
 namespace Kogane
 {
