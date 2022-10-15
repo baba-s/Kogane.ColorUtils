@@ -21,7 +21,7 @@ namespace Kogane
         /// </summary>
         public static Color FromRGB( byte r, byte g, byte b )
         {
-            return new Color( r / 255f, g / 255f, b / 255f );
+            return new( r / 255f, g / 255f, b / 255f );
         }
 
         /// <summary>
@@ -29,7 +29,7 @@ namespace Kogane
         /// </summary>
         public static Color FromRGBA( byte r, byte g, byte b, byte a )
         {
-            return new Color( r / 255f, g / 255f, b / 255f, a / 255f );
+            return new( r / 255f, g / 255f, b / 255f, a / 255f );
         }
 
         /// <summary>
@@ -37,7 +37,7 @@ namespace Kogane
         /// </summary>
         public static Color FromARGB( byte a, byte r, byte g, byte b )
         {
-            return new Color( r / 255f, g / 255f, b / 255f, a / 255f );
+            return new( r / 255f, g / 255f, b / 255f, a / 255f );
         }
 
         /// <summary>
