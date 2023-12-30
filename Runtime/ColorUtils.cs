@@ -196,5 +196,18 @@ namespace Kogane
         {
             return ToARGB( color ).ToString( "X8" );
         }
+
+        /// <summary>
+        /// アルファブレンドした色を返します
+        /// </summary>
+        public static Color AlphaBlend
+        (
+            in Color backgroundColor,
+            in Color overlapColor,
+            float    alpha
+        )
+        {
+            return backgroundColor + ( overlapColor - backgroundColor ) * alpha;
+        }
     }
 }
